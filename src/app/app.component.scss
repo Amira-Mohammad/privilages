@@ -1,0 +1,34 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    
+    background-color: teal;
+  
+    padding: 10px;
+}
+app-header{
+    align-self: center;
+    display: flex;
+    justify-content:space-between;
+
+}
+.content-sidebar{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    background-color: indianred;
+    width: 70%;
+ 
+
+}
+
+app-content div{
+    display: flex;
+    justify-content: space-between;
+}

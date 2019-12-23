@@ -1,0 +1,17 @@
+<div class="parent">
+  <div class="header">
+    <app-header [myValueToChild] = "valueToChild"></app-header>
+  </div>
+  <!-- <input type="text" [(ngModel)] = "valueToChild" />  -->
+  <select class="form-control" [(ngModel)] = "valueToChild">
+    <option>Admin</option>
+    <option>office</option>
+   
+  </select> 
+  <div class="content-sideBarContent">
+    <app-content [myValueToChild] = "valueToChild"></app-content>
+  
+    <app-side-bar [myValueToChild] = "valueToChild"></app-side-bar>
+  </div>
+  </div>
+  
